@@ -10,6 +10,16 @@ namespace LinkedList
     {
         static void Main(string[] args)
         {
+            LinkedList linkedlist = new LinkedList();
+
+            linkedlist.Add("A");
+            linkedlist.Add("B");
+            linkedlist.Add("C");
+
+            linkedlist.PrintAllNodes();
+
+            Console.ReadKey();
+
         }
     }
 }
